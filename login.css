@@ -1,0 +1,167 @@
+.frame-child {
+  	position: absolute;
+  	top: 206px;
+  	left: -417px;
+  	width: 1284px;
+  	height: 653px;
+  	object-fit: contain;
+}
+.frame-item {
+  	position: absolute;
+  	top: -73.5px;
+  	left: -406.5px;
+  	width: 1284px;
+  	height: 653px;
+}
+.frame-inner {
+  	position: absolute;
+  	top: 406px;
+  	left: 25px;
+  	background-color: #adb5bd;
+  	width: 408px;
+  	height: 1px;
+}
+.github-icon {
+  	position: absolute;
+  	top: 556px;
+  	left: 210px;
+  	border-radius: 50px;
+  	width: 38px;
+  	height: 91px;
+  	object-fit: cover;
+}
+.google-icon {
+  	position: absolute;
+  	top: 556px;
+  	left: 67px;
+  	border-radius: 50px;
+  	width: 38px;
+  	height: 91px;
+  	object-fit: cover;
+}
+.apple-icon {
+  	position: absolute;
+  	top: 556px;
+  	left: 353px;
+  	border-radius: 50px;
+  	width: 38px;
+  	height: 91px;
+  	object-fit: cover;
+}
+.login {
+  	position: absolute;
+  	top: 66px;
+  	left: 25px;
+  	font-size: 40px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 408px;
+  	height: 63px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.sign-up {
+  	position: absolute;
+  	top: 445px;
+  	left: 25px;
+  	font-size: 40px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 408px;
+  	height: 63px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.user-id1 {
+  	margin: 0;
+}
+.user-id {
+  	position: absolute;
+  	top: 177px;
+  	left: 37px;
+  	text-align: left;
+  	display: inline-block;
+  	width: 376px;
+  	height: 57px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 286px;
+  	left: 41px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 372px;
+  	height: 1px;
+}
+.password {
+  	position: absolute;
+  	top: 241px;
+  	left: 37px;
+  	text-align: left;
+  	display: inline-block;
+  	width: 376px;
+  	height: 57px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.frame-child1 {
+  	position: absolute;
+  	top: 320px;
+  	left: 104px;
+  	border-radius: 14px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 250px;
+  	height: 37px;
+}
+.frame-child2 {
+  	position: absolute;
+  	top: 227px;
+  	left: 41px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 372px;
+  	height: 1px;
+}
+.login1 {
+  	position: absolute;
+  	top: 320px;
+  	left: 104px;
+  	font-weight: 600;
+  	color: #000;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 250px;
+  	height: 37px;
+}
+.vector-parent {
+  	position: absolute;
+  	top: 67px;
+  	left: 411px;
+  	border-radius: 21px;
+  	background-color: rgba(73, 80, 87, 0.61);
+  	width: 457px;
+  	height: 697px;
+  	overflow: hidden;
+}
+.login-page {
+  	width: 100%;
+  	position: relative;
+  	height: 832px;
+  	overflow: hidden;
+  	background-image: url('login page.png');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #f8f9fa;
+  	font-family: 'Segoe UI';
+}
+
