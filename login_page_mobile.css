@@ -1,0 +1,167 @@
+.frame-child {
+  	position: absolute;
+  	top: 0px;
+  	left: -128px;
+  	width: 578px;
+  	height: 304px;
+}
+.frame-item {
+  	position: absolute;
+  	top: 210px;
+  	left: -128px;
+  	width: 578px;
+  	height: 304px;
+  	object-fit: contain;
+}
+.frame-inner {
+  	position: absolute;
+  	top: 316px;
+  	left: 51px;
+  	background-color: #adb5bd;
+  	width: 248px;
+  	height: 1px;
+}
+.github-icon {
+  	position: absolute;
+  	top: 419px;
+  	left: 149px;
+  	border-radius: 50px;
+  	width: 49px;
+  	height: 38px;
+  	object-fit: cover;
+}
+.google-icon {
+  	position: absolute;
+  	top: 419px;
+  	left: 69px;
+  	border-radius: 50px;
+  	width: 49px;
+  	height: 38px;
+  	object-fit: cover;
+}
+.apple-icon {
+  	position: absolute;
+  	top: 419px;
+  	left: 230px;
+  	border-radius: 50px;
+  	width: 48px;
+  	height: 38px;
+  	object-fit: cover;
+}
+.login {
+  	position: absolute;
+  	top: 40px;
+  	left: 22px;
+  	font-size: 40px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 304px;
+  	height: 58px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.sign-up {
+  	position: absolute;
+  	top: 340px;
+  	left: 23px;
+  	font-size: 40px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 304px;
+  	height: 57px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.user-id1 {
+  	margin: 0;
+}
+.user-id {
+  	position: absolute;
+  	top: 143px;
+  	left: 51px;
+  	text-align: left;
+  	display: inline-block;
+  	width: 248px;
+  	height: 44px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 237px;
+  	left: 51px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 245px;
+  	height: 0px;
+}
+.password {
+  	position: absolute;
+  	top: 193px;
+  	left: 51px;
+  	text-align: left;
+  	display: inline-block;
+  	width: 248px;
+  	height: 44px;
+  	text-shadow: 1px 0 0 #f8f9fa, 0 1px 0 #f8f9fa, -1px 0 0 #f8f9fa, 0 -1px 0 #f8f9fa;
+}
+.frame-child1 {
+  	position: absolute;
+  	top: 252px;
+  	left: 128px;
+  	border-radius: 14px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 95px;
+  	height: 27px;
+}
+.frame-child2 {
+  	position: absolute;
+  	top: 187px;
+  	left: 51px;
+  	background-color: #f8f9fa;
+  	border: 1px solid #f8f9fa;
+  	box-sizing: border-box;
+  	width: 245px;
+  	height: 0px;
+}
+.login1 {
+  	position: absolute;
+  	top: 252px;
+  	left: 128px;
+  	font-weight: 600;
+  	color: #000;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 95px;
+  	height: 27px;
+}
+.vector-parent {
+  	position: absolute;
+  	top: 207px;
+  	left: 41px;
+  	border-radius: 21px;
+  	background-color: rgba(73, 80, 87, 0.61);
+  	width: 349px;
+  	height: 517px;
+  	overflow: hidden;
+}
+.iphone-16-plus-1 {
+  	width: 100%;
+  	position: relative;
+  	height: 932px;
+  	overflow: hidden;
+  	background-image: url('iPhone 16 Plus - 1.png');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #f8f9fa;
+  	font-family: 'Segoe UI';
+}
+
