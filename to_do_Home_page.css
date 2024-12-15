@@ -1,0 +1,425 @@
+.page-1-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #495057;
+  	width: 264px;
+  	height: 832px;
+}
+.templates-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #343a40;
+  	width: 216px;
+  	height: 31px;
+}
+.templates1 {
+  	position: absolute;
+  	top: 6px;
+  	left: 34px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 98px;
+  	height: 15px;
+}
+.template-icon {
+  	position: absolute;
+  	top: 2px;
+  	left: 2px;
+  	border-radius: 5px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.templates {
+  	position: absolute;
+  	top: 611px;
+  	left: 24px;
+  	width: 216px;
+  	height: 31px;
+}
+.trash-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #343a40;
+  	width: 216px;
+  	height: 33px;
+}
+.trash-icon {
+  	position: absolute;
+  	top: 4px;
+  	left: 1px;
+  	border-radius: 5px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.trash1 {
+  	position: absolute;
+  	top: 8px;
+  	left: 34px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 97px;
+  	height: 15px;
+}
+.trash {
+  	position: absolute;
+  	top: 654px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+}
+.help-icon {
+  	position: absolute;
+  	top: 3px;
+  	left: 2px;
+  	width: 24px;
+  	height: 24px;
+}
+.help {
+  	position: absolute;
+  	top: 699px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+}
+.settings1 {
+  	position: absolute;
+  	top: 7px;
+  	left: 34px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 98px;
+  	height: 15px;
+}
+.settings-icon {
+  	position: absolute;
+  	top: 3px;
+  	left: 2px;
+  	border-radius: 5px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.settings {
+  	position: absolute;
+  	top: 566px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+}
+.calendar {
+  	position: absolute;
+  	top: 10px;
+  	left: 34px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 98px;
+  	height: 14px;
+}
+.calendar-arrow-icon {
+  	position: absolute;
+  	top: 2.44px;
+  	left: 190px;
+  	width: 24px;
+  	height: 29.3px;
+}
+.calender-icon {
+  	position: absolute;
+  	top: 4px;
+  	left: 2px;
+  	width: 24px;
+  	height: 24px;
+}
+.calender {
+  	position: absolute;
+  	top: 521px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+}
+.private {
+  	position: absolute;
+  	top: 217px;
+  	left: 24px;
+  	color: #000;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 54px;
+  	height: 24px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #343a40;
+  	width: 216px;
+  	height: 27px;
+}
+.new-page {
+  	position: absolute;
+  	top: calc(50% - 10.5px);
+  	left: 1px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 215px;
+  	height: 27px;
+}
+.group-item {
+  	position: absolute;
+  	top: 2px;
+  	left: 4px;
+  	width: 24px;
+  	height: 24px;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 387px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+  	font-size: 12px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 343px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+  	font-size: 12px;
+}
+.group-child1 {
+  	position: absolute;
+  	top: 1px;
+  	left: 4px;
+  	width: 24px;
+  	height: 24px;
+}
+.rectangle-container {
+  	position: absolute;
+  	top: 296px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+  	font-size: 12px;
+}
+.group-div {
+  	position: absolute;
+  	top: 252px;
+  	left: 24px;
+  	width: 216px;
+  	height: 33px;
+  	font-size: 12px;
+}
+.home1 {
+  	position: absolute;
+  	top: 25px;
+  	left: 331px;
+  	font-size: 32px;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: left;
+  	width: 104px;
+  	height: 53px;
+}
+.checkbox {
+  	position: relative;
+  	width: 37.5px;
+  	height: 37.5px;
+}
+.making-bed {
+  	position: absolute;
+  	top: 104px;
+  	left: 341px;
+  	font-size: 20px;
+  	color: #fff;
+  	text-align: left;
+  	display: inline-block;
+  	width: 288px;
+  	height: 25px;
+}
+.bringing-grocery {
+  	position: absolute;
+  	top: 160px;
+  	left: 341px;
+  	font-size: 20px;
+  	color: #fff;
+  	text-align: left;
+  	display: inline-block;
+  	width: 288px;
+  	height: 25px;
+}
+.invite-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #343a40;
+  	width: 264px;
+  	height: 52px;
+}
+.invite1 {
+  	position: absolute;
+  	top: 12px;
+  	left: 48px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 156px;
+  	height: 27px;
+}
+.invite {
+  	position: absolute;
+  	top: 780px;
+  	left: 0px;
+  	width: 264px;
+  	height: 52px;
+}
+.search-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 216px;
+  	height: 27px;
+}
+.search1 {
+  	position: absolute;
+  	top: 6px;
+  	left: 35px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 98px;
+  	height: 14px;
+}
+.search-icon {
+  	position: absolute;
+  	top: 2px;
+  	left: 4px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.search {
+  	position: absolute;
+  	top: 57px;
+  	left: 24px;
+  	width: 216px;
+  	height: 27px;
+}
+.home-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #343a40;
+  	width: 216px;
+  	height: 26px;
+}
+.home-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 4px;
+  	width: 24px;
+  	height: 24px;
+}
+.home3 {
+  	position: absolute;
+  	top: 5px;
+  	left: 35px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 98px;
+  	height: 14px;
+}
+.home2 {
+  	position: absolute;
+  	top: 110px;
+  	left: 24px;
+  	width: 216px;
+  	height: 26px;
+}
+.profile-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #343a40;
+  	width: 180px;
+  	height: 27px;
+}
+.snehashis-roy {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 27px;
+}
+.profile {
+  	position: absolute;
+  	top: 12px;
+  	left: 60px;
+  	width: 180px;
+  	height: 27px;
+}
+.profile-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	background-color: #343a40;
+  	width: 27px;
+  	height: 27px;
+}
+.s {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 25px;
+  	height: 24px;
+}
+.profile1 {
+  	position: absolute;
+  	top: 12px;
+  	left: 24px;
+  	width: 27px;
+  	height: 27px;
+}
+.page-1 {
+  	width: 100%;
+  	position: relative;
+  	background-color: #212529;
+  	height: 832px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #e9ecef;
+  	font-family: 'Segoe UI';
+}
+
