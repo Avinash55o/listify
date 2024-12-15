@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import TodoItem from "../components/TodoItem";
+import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
@@ -27,14 +29,22 @@ const Home = () => {
   };
 
   return (
-    <div style={{ display: "flex", height: "100vh", fontFamily: "Arial, sans-serif" }}>
+    <>
+    <Header/>
+      <div style={{ display: "flex", height: "100vh", fontFamily: "Arial, sans-serif" }}>
       {/* Left Side Menu */}
       <aside style={{ width: "25%", backgroundColor: "#f4f4f4", padding: "20px" }}>
         <h2>Menu</h2>
         <ul style={{ listStyleType: "none", padding: 0 }}>
-          <li style={{ margin: "10px 0" ,cursor: "pointer"}}> Profile</li>
-          <li style={{ margin: "10px 0" ,cursor: "pointer" }}>Calendar</li>
-          <li style={{ margin: "10px 0" ,cursor: "pointer" }}>About</li>
+          <li style={{ margin: "10px 0" }}>
+            <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>Profile</Link>
+          </li>
+          <li style={{ margin: "10px 0" }}>
+            <Link to="/calendar" style={{ textDecoration: "none", color: "black" }}>Calendar</Link>
+          </li>
+          <li style={{ margin: "10px 0" }}>
+            <Link to="/about" style={{ textDecoration: "none", color: "black" }}>About</Link>
+          </li>
         </ul>
       </aside>
 
@@ -137,6 +147,9 @@ const Home = () => {
         </div>
       </main>
     </div>
+    <Footer/>
+    </>
+    
   );
 };
 
