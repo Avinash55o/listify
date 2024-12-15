@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./to_do_Home_page.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Segoe UI:wght@400;600;700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="page-1">
+    		<div class="page-1-child">
+    		</div>
+    		<div class="templates">
+      			<div class="templates-child">
+      			</div>
+      			<div class="templates1">Templates</div>
+      			<img class="template-icon" alt="" src="template.svg">
+      			
+    		</div>
+    		<div class="trash">
+      			<div class="trash-child">
+      			</div>
+      			<img class="trash-icon" alt="" src="trash.svg">
+      			
+      			<div class="trash1">Trash</div>
+    		</div>
+    		<div class="help">
+      			<div class="trash-child">
+      			</div>
+      			<img class="help-icon" alt="" src="help.svg">
+      			
+      			<div class="templates1">Help</div>
+    		</div>
+    		<div class="settings">
+      			<div class="trash-child">
+      			</div>
+      			<div class="settings1">Settings</div>
+      			<img class="settings-icon" alt="" src="settings.svg">
+      			
+    		</div>
+    		<div class="calender">
+      			<div class="trash-child">
+      			</div>
+      			<div class="calendar">Calendar</div>
+      			<img class="calendar-arrow-icon" alt="" src="calendar arrow.svg">
+      			
+      			<img class="calender-icon" alt="" src="calender.svg">
+      			
+    		</div>
+    		<div class="private">Private</div>
+    		<div class="rectangle-parent">
+      			<div class="group-child">
+      			</div>
+      			<div class="new-page">NEW PAGE</div>
+      			<img class="group-item" alt="" src="Group 10.svg">
+      			
+    		</div>
+    		<div class="rectangle-group">
+      			<div class="group-child">
+      			</div>
+      			<div class="new-page">NEW PAGE</div>
+      			<img class="group-item" alt="" src="Group 9.svg">
+      			
+    		</div>
+    		<div class="rectangle-container">
+      			<div class="group-child">
+      			</div>
+      			<div class="new-page">SCHOOL</div>
+      			<img class="group-child1" alt="" src="Group 8.svg">
+      			
+    		</div>
+    		<div class="group-div">
+      			<div class="group-child">
+      			</div>
+      			<div class="new-page">HOME</div>
+      			<img class="group-child1" alt="" src="Group 7.svg">
+      			
+    		</div>
+    		<b class="home1">HOME</b>
+    		<div class="checkbox">
+    		</div>
+    		<div class="checkbox">
+    		</div>
+    		<div class="making-bed">Making bed</div>
+    		<div class="bringing-grocery">Bringing grocery</div>
+    		<div class="invite">
+      			<div class="invite-child">
+      			</div>
+      			<div class="invite1">INVITE</div>
+    		</div>
+    		<div class="search">
+      			<div class="search-inner">
+        				<div class="group-child">
+        				</div>
+      			</div>
+      			<div class="search1">Search</div>
+      			<img class="search-icon" alt="" src="search.svg">
+      			
+    		</div>
+    		<div class="home2">
+      			<div class="home-child">
+      			</div>
+      			<img class="home-icon" alt="" src="home.svg">
+      			
+      			<div class="home3">Home</div>
+    		</div>
+    		<div class="profile">
+      			<div class="profile-child">
+      			</div>
+      			<div class="snehashis-roy">Snehashis Roy</div>
+    		</div>
+    		<div class="profile1">
+      			<div class="profile-item">
+      			</div>
+      			<div class="s">S</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+</html>
