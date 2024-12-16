@@ -1,0 +1,186 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #94caa1;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px #0000001a;
+    width: 100%;
+    max-width: 567px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-family:cursive
+
+
+}
+
+/* Input and button styling */
+input[type="text"] {
+    width: 80%;
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px solid #120606;
+    border-radius: 44px;
+    font-size: 18px;
+    font-family:monospace;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #94eb37;
+    color: rgb(28, 5, 5);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d7d713;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    padding: 5px;
+    background-color: #ece1e1;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    font-family:monospace;
+    font-size: 15px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #98c9a4;
+}
+
+/* Button styles for delete and edit */
+button.deleteBtn,
+button.editBtn {
+    background-color: rgb(241, 42, 42);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+button.deleteBtn:hover {
+    background-color: #e74c3c;
+}
+
+button.editBtn {
+    background-color: #ff9800;
+}
+
+button.editBtn:hover {
+    background-color: #ff5722;
+}
+/* date time*/
+
+.dateTime {
+    font-size: 12px;
+    color: #888;
+    margin-left: 10px;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    input[type="text"] {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button.deleteBtn, button.editBtn {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    button.deleteBtn, button.editBtn {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+}
